@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MathOperation_Example' do
+  pod 'MathOperation', :path => '../'
+
+  target 'MathOperation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
